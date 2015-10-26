@@ -1,0 +1,36 @@
+// Using 'Paper' bootswatch
+
+//Import bootstrap-sprockets
+@import "bootstrap-sprockets";
+
+// Then bootstrap itself
+@import "bootstrap";
+
+// Import paper variables
+@import "bootswatch/paper/variables";
+
+
+// Bootstrap body padding for fixed navbar
+//body { padding-top: 60px; }
+
+// And finally bootswatch style itself
+@import "bootswatch/paper/bootswatch";
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+  letter-spacing: .5px;
+}
+
+.footer {
+  margin-top: 25px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+.col-sm-4 {
+  border-right: 1px solid #eaeaea;
+}
